@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UseDev</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/banner.css">
+        <link rel="stylesheet" href="./css/categorias.css">
+        <link rel="stylesheet" href="./css/promocoes.css">
+        <link rel="stylesheet" href="./css/newsletter.css">
+        <link rel="stylesheet" href="./css/footer.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header--navbar">
+                <ul class="header--navbar-list">
+                    <li>
+                        <h1 class="header--logo">
+                            <img src="./assets/icons/logo.svg" alt="Logo do UseDev">
+                        </h1>
+                    </li>
+                    <li class="header--navbar-list-item">
+                    <a href="#" class="header--navbar-list-link header--navbar-list-link-about">Sobre nós</a>
+                </li>
+                <li class="header--navbar-list-item header--navbar-list-item-input">
+                    <input type="search" id="search" class="header--navbar--list-input" placeholder="Oque você procura?">
+                    <img src="./assets/icons/search.svg" alt="Icone de lupa" class="header--navbar--list-input-icon">
+                </li>
+                    <li class="header--navbar-list-item">
+                        <a href="#" class="header--navbar-list-link header--navbar-list-link-login">Login</a>
+                    </li>
+                    <li class="header--navbar-list-item">
+                        <a href="#" class="header--navbar-list-link header--navbar-list-link-profile"><img src="./assets/icons/perfil.svg" alt="Icone de perfil"></a>
+                    </li>
+                    <li class="header--navbar-list-item">
+                        <a href="#" class="header--navbar-list-link header--navbar-list-link-cart"><img src="./assets/icons/carrinho.svg" alt="Icone de carrinho de compras"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <img class="banner--image" src="./assets/banner.png" alt="Uma pessoa usando uma camiseta da UseDev">
+            <div class="banner--container">
+                <h2 class="banner--container-title">Hora de abraçar seu <span class="banner--container-title-highlight">lado geek!</span></h2>
+                <button class="banner--container-button">Ver as novidades!</button>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h3 class="categories--title">Categorias</h3>
+            <p class="categories--text">De roupas a gadgets tecnológicos temos tudo para atender suas paixões e hobbies com estilo e autenticidade.</p>
+            <ul class="categories--list">
+                <li class="categories--list-item categories--list-item-clothes">
+                    <div class="categories--list-item-container">
+                        <img src="./assets/roupas.png" alt="Camisetas da UseDev">
+                    </div>
+                    <h4 class="categories--list-item-title">Roupas</h4>
+                </li>
+                <li class="categories--list-item categories--list-item-decoration">
+                    <div class="categories--list-item-container">
+                        <img src="./assets/decoracao.png" alt="Decoração da UseDev">
+                    </div>
+                    <h4 class="categories--list-item-title">Decoração</h4>
+                </li>
+                <li class="categories--list-item categories--list-item-mugs">
+                    <div class="categories--list-item-container">
+                        <img src="./assets/canecas.png" alt="Canecas da UseDev">
+                    </div>
+                    <h4 class="categories--list-item-title">Canecas</h4>
+                </li>
+                <li class="categories--list-item categories--list-item-accessories">
+                    <div class="categories--list-item-container">
+                        <img src="./assets/acessorios.png" alt="Acessórios da UseDev">
+                    </div>
+                    <h4 class="categories--list-item-title">Acessórios</h4>
+                </li>
+            </ul>
+        </section>
+
+        <section class="promotions">
+            <h3 class="promotions--title">Promos especiais</h3>
+            <ul class="promotions--list">
+                <li class="promotions--list-item">
+                    <img src="./assets/produtos/camiseta.png"alt="Camiseta da UseDev em promoção">
+                    <div class="promotions--list-item-description">
+                        <h4 class="promotions--list-item-text">Camiseta Capy</h4>
+                        <p class="promotions--list-item-price">28,00</p>                        
+                    </div>
+                </li>
+                <li class="promotions--list-item">
+                    <img src="./assets/produtos/mousepad.png" alt="Mousepad da UseDev em promoção">
+                    <div class="promotions--list-item-description">
+                        <h4 class="promotions--list-item-text">Mousepad Café</h4>
+                        <p class="promotions--list-item-price">18,00</p>
+                    </div>
+                </li>
+                <li class="promotions--list-item">
+                    <img src="./assets/produtos/caneca.png" alt="Caneca da UseDev em promoção">
+                    <div class="promotions--list-item-description">
+                        <h4 class="promotions--list-item-text">Caneca Bug</h4>
+                        <p class="promotions--list-item-price">28,00</p>
+                    </div>
+                </li>
+                <li class="promotions--list-item">
+                    <img src="./assets/produtos/boné.png" alt="Boné da UseDev em promoção">
+                    <div class="promotions--list-item-description">
+                            <h4 class="promotions--list-item-text">Boné 404</h4>
+                            <p class="promotions--list-item-price">25,00</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="promotions--list-item">
+                    <img src="./assets/produtos/quadro.png" alt="Quadro da UseDev em promoção">
+                    <div class="promotions--list-item-description">
+                        <h4 class="promotions--list-item-text">Quadro White</h4>
+                        <p class="promotions--list-item-price">22,00</p>
+                    </div>
+                </li>
+                <li class="promotions--list-item">
+                        <img src="./assets/produtos/copo.png" alt="Copo da UseDev em promoção">
+                        <div class="promotions--list-item-description">
+                            <h4 class="promotions--list-item-text promotions--list-item-bottom_text">Copo Vida de Code</h4>
+                            <p class="promotions--list-item-price promotions--list-item-bottom_text">28,00</p>
+                        </div>
+                </li>
+                <li class="promotions--list-item">
+                        <img src="./assets/produtos/abridor.png" alt="Abridor da UseDev em promoção">
+                        <div class="promotions--list-item-description">
+                            <h4 class="promotions--list-item-text">Abridor de Garrafa</h4>
+                            <p class="promotions--list-item-price">12,00</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="promotions--list-item">
+                        <img src="./assets/produtos/camisa.png" alt="Camisa da UseDev em promoção">
+                        <div class="promotions--list-item-description">
+                            <h4 class="promotions--list-item-text">Camiseta Estágio</h4>
+                            <p class="promotions--list-item-price">35,00</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <div class="footer--row">
+                <div class="footer--column footer--columns-logo">
+                    <img src="./assets/icons/logo-verde.svg" alt="Logo do UseDev verde">
+                    <p class="footer--column-logo-text">Hora de abraçar seu lado geek!</p>
+                </div>
+                <div class="footer--column">
+                    <h5 class="footer--column-title">Funcionamento</h5>
+                    <ul class="footer--column-list">
+                        <li class="footer--column-list-item"><p>Segunda a sexta - 8h às 18h</p></li>
+                        <li class="footer--column-list-item"><a href="mailto:sac@usedev.com.br">sac@usedev.com.br</a></li>
+                        <li class="footer--column-list-item"><a href="tel:+550800541320">0800 541 320</a></li>
+                    </ul>
+                </div>
+                <div class="footer--column">
+                    <h5 class="footer--column-title">Institucional</h5>
+                    <ul class="footer--column-list">
+                        <li class="footer--column-list-item"><a href="#">Sobre nós</a></li>
+                        <li class="footer--column-list-item"><a href="#">Contato</a></li>
+                        <li class="footer--column-list-item"><a href="#">Politica de privacidade</a></li>
+                        <li class="footer--column-list-item"><a href="#">LGPD - Lei de proteção de dados</a></li>
+                    </ul>
+                </div>
+                <div class="footer--column">
+                    <h5 class="footer--column-title">Informações</h5>
+                    <ul class="footer--column-list">
+                        <li class="footer--column-list-item">
+                            <a href="#">Entregas</a>
+                        </li>
+                        <li class="footer--column-list-item">
+                            <a href="#">Garantia</a>
+                        </li>
+                        <li class="footer--column-list-item">
+                            <a href="#">Trocas e Devoluções</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer--separator">
+
+            <div class="footer--row footer--row-bottom">
+                <div class="footer--column">
+                    <h5 class="footer--column-title">Formas de Pagamento</h5>
+                    <ul class="footer--payment-icons">
+                        <li class="footer--payment-icons-item">
+                            <img src="./assets/icons/icon-cartao-visa.svg" alt="Icone do cartão de crédito Visa">
+                        </li>
+                        <li class="footer--payment-icons-item">
+                            <img src="./assets/icons/icon-cartao-master.svg" alt="Icone do cartão de crédito Mastercard">
+                        </li>
+                        <li class="footer--payment-icons-item">
+                            <img src="./assets/icons/icon-cartao-diners.svg" alt="Icone do cartão de crédito Diners">
+                        </li>
+                        <li class="footer--payment-icons-item">
+                            <img src="./assets/icons/icon-cartao-elo.svg" alt="Icone do cartão de crédito Elo">
+                        </li>
+                        <li class="footer--payment-icons-item">
+                            <img src="./assets/icons/icon-pix.svg" alt="Icone do pagamento Pix">
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer--column">
+                    <h5 class="footer--column-title">Siga nossas redes</h5>
+                    <ul class="footer--social-icons">
+                        <li class="footer--social-icons-item">
+                            <a href="#">
+                                <img src="./assets/icons/whatsapp.svg" alt="Icone do WhatsApp">
+                            </a>
+                        </li>
+                        <li class="footer--social-icons-item">
+                            <a href="#">
+                                <img src="./assets/icons/instagram.svg" alt="Icone do Instagram">
+                            </a>
+                        </li>
+                        <li class="footer--social-icons-item">
+                            <a href="#">
+                                <img src="./assets/icons/tiktok.svg" alt="Icone do TikTok">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

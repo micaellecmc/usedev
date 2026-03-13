@@ -1,0 +1,56 @@
+.banner {
+    background-color: var(--link-color);
+    padding: 80px 12.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(../assets/banner-background.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    align-items: center;
+    gap: 56px;
+}
+
+.banner--image {
+    width: 100%;
+}
+
+.banner--container-title {
+    font-size: 76px;
+    font-weight: 800;
+    font-family: var(--title-font);
+    line-height: 91.2px;
+    color: var(--principal-hightlight);
+
+    padding-bottom: 48px;
+}
+
+.banner--container-title-highlight {
+    color: var(--secundary-hightlight);
+}
+
+.banner--container-button {
+    padding: 16px 24px;
+    border: none;
+    border-radius: 32px;
+    line-height: 36px;
+    font-family: var(--text-font);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--background-color);
+    background-color: var(--purple);
+}
+
+
+@media screen and (max-width: 1280px) {
+    .banner {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 80px 38px;
+    }
+
+    .banner--container-title {
+        font-size: 61px;
+        line-height: 73.2px;
+    }
+    
+}

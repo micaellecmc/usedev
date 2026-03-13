@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --principal-text-color: #0B254B;
+    --secundary-text-color: #5E6E89;
+    --text-color: #EFEFEF;
+    --text-font: "Poppins", sans-serif;
+    --title-font: "Orbitron", sans-serif;
+
+    --link-color: #090129;
+
+    --principal-hightlight: #FF55DF;
+    --secundary-hightlight: #8FFF24;
+    
+    --purple: #780BF7;
+
+    --background-color: #FFFFFF;
+}
+
+body {
+    width: 100vw;
+}
+
+main {
+    width: 100%;
+}

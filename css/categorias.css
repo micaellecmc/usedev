@@ -1,0 +1,76 @@
+.categories--list {
+    display: grid;
+    grid-template-columns: 1fr 1fr, 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "clothes clothes decoration"
+    "mugs accessories accessories";
+    gap: 24px;
+    list-style-type: none;
+}
+
+.categories {
+    padding: 80px 12.5%;
+}
+
+.categories--title {
+    text-align: center;
+    padding-bottom: 40px;
+    color: var(--principal-text-color);
+    font-family: var(--title-font);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.categories--text {
+    text-align: center;
+    padding-bottom: 40px;
+    color: var(--secundary-text-color);
+    font-family: var(--text-font);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.categories--list-item {
+    box-shadow: 0px 4px 24px #7b7b7b26;
+}
+
+.categories--list-item-clothes {
+    grid-area: clothes;
+}
+
+.categories--list-item-decoration {
+    grid-area: decoration;
+}
+
+.categories--list-item-mugs {
+    grid-area: mugs;
+}
+
+.categories--list-item-accessories {
+    grid-area: accessories;
+}
+
+.categories--list-item-container {
+    background-color: var(--link-color);
+    text-align: center;
+}
+
+.categories--list-item-container img {
+    width: 100%;
+    height: 331px;
+    object-fit: contain;
+}
+
+.categories--list-item-title {
+    color: var(--principal-text-color);
+    font-family: var(--title-font);
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 37.2px;
+    text-align: center;
+    padding: 16px 0;
+}
+
